@@ -364,6 +364,7 @@ img {
     border-radius: .5rem;
     font-weight: var(--font-medium);
     margin-bottom: 1rem;
+    margin-top: 1rem;
 }
 
 .button:hover {
@@ -393,7 +394,7 @@ img {
 }
 
 .button--small {
-    padding: .75rem 1rem;
+    padding: .75rem 4.5rem;
 }
 
 .button--link {
@@ -419,13 +420,15 @@ img {
 
 .about__description {
     text-align: center;
-    margin-bottom: var(--mb-2-5);
+    margin-bottom: var(--mb-0-75);
+    color: var(--title-color);
 }
 
 .about__info {
     display: flex;
     justify-content: space-evenly;
     margin-bottom: var(--mb-2-5);
+    margin-top: var(--mb-1);
 }
 
 .about__info-title {
@@ -808,12 +811,12 @@ img {
 }
 
 .project__description {
-    margin-bottom: var(--mb-1-5);
+    margin-bottom: var(--mb-0-75);
 }
 
 .project__title,
 .project__description {
-    color: #FFF;
+    color:var(--title-color);
 }
 
 .project__img {
@@ -1046,8 +1049,7 @@ img {
     }
 
     .qualification__data {
-        gap: .5rem;
-        ;
+        gap: .5rem;;
     }
 
     .services__container {
@@ -1255,7 +1257,7 @@ img {
     }
 
     .project__container {
-        background-color: var(--first-color-second);
+        /*background-color: var(--first-color-second);*/
         border-radius: 1rem;
         padding: 3rem 2.5rem 0;
         grid-template-columns: 1fr max-content;
